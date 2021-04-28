@@ -8,7 +8,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
 
-# from login_registration import login_form
 
 
 def login_form(email, password):  # login form fill out

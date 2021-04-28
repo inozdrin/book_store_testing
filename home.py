@@ -2,7 +2,7 @@
 # -- Created by Igor at 4/24/2021 --
 # -- coding = "utf-8" ---
 from selenium import webdriver
-#import time
+
 
 def check_tabs():   # Checking if Chrome Settings  Tab opens when browser starts
     if len(driver.window_handles) > 1:
@@ -51,10 +51,8 @@ tbox_email = driver.find_element_by_id('email')
 tbox_email.send_keys('vasiapupkin@qwerty.com')
 
 #   Click Submit
-
 submit_btn = driver.find_element_by_id('submit')
 submit_btn.click()
-
 
 # *****************************************************************************
 #   Close Driver
